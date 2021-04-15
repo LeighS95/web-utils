@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "lib": ["dom", "ESNext"],
+      "sourceMap": true,
+      "outDir": "./build",
+      "rootDir": "./",
+      "removeComments": true,
+      // "isolatedModules": true,
+      "declaration": true,
+      "declarationMap": true,
+  
+      /* Strict Type-Checking Options */
+      "strict": true,
+      "noImplicitAny": true,
+  
+      /* Additional Checks */
+      "noUnusedLocals": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+  
+      /* Module Resolution Options */
+      "moduleResolution": "node",
+      // "typeRoots": [],                             /* List of folders to include type definitions from. */
+      // "types": [],                                 /* Type declaration files to be included in compilation. */
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+  
+      /* Experimental Options */
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+  
+      /* Advanced Options */
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    }
+  }
+  
