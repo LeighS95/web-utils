@@ -4,9 +4,16 @@
   "license": "MIT",
   "author": "Stephen Leigh <leigh.s95@outlook.com>",
   "repository": "git@github.com:LeighS95/web-utils.git",
+  "scripts": {
+    "lint": "eslint ./packages/**/**/*.ts",
+    "lint:fix": "eslint --fix ./packages/**/**/*.ts",
+    "pretty": "prettier --config .prettierrc.js --write ./packages/**/**/*.ts"
+  },
   "devDependencies": {
     "@ignisii/eslint-config": "^2.0.0",
     "@ignisii/prettier-config": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
     "eslint": "^7.24.0",
     "lerna": "^4.0.0",
     "prettier": "^2.2.1",
