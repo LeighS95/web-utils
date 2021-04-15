@@ -1,0 +1,14 @@
+{
+  "name": "@web-utils/beacon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "typings": "../types/beacon/index.d.ts",
+  "license": "MIT",
+  "author": "Stephen Leigh <leigh.s95@outlook.com>",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
