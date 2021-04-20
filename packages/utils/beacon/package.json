@@ -1,14 +1,15 @@
 {
   "name": "@web-utils/beacon",
   "version": "1.0.0",
-  "main": "index.js",
-  "typings": "../types/beacon/index.d.ts",
+  "main": "dist/index.js",
+  "types": "../types/beacon/index.d.ts",
   "license": "MIT",
   "author": "Stephen Leigh <leigh.s95@outlook.com>",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {
-    "typescript": "^4.2.4"
   }
 }

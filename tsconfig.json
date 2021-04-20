@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
-      "rootDir": "./",
+      "baseUrl": ".",
+      "target": "es2015",
       "removeComments": true,
       // "isolatedModules": true,
       "declaration": true,
@@ -16,6 +17,7 @@
       "noFallthroughCasesInSwitch": true,
   
       /* Module Resolution Options */
+      "module": "commonjs",
       "moduleResolution": "node",
       // "typeRoots": [],                             /* List of folders to include type definitions from. */
       // "types": [],                                 /* Type declaration files to be included in compilation. */

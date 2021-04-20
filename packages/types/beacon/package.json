@@ -1,0 +1,6 @@
+{
+  "name": "beacon",
+  "version": "1.0.0",
+  "main": "index.d.js",
+  "license": "MIT"
+}
